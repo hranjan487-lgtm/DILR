@@ -1,0 +1,490 @@
+[
+    {
+        "page": 1,
+        "text": "Scor ecar d (procreview .jsp?sid=aaaN5tjtX0b7W gArBjowyMon Jan 09 00:02:18 IST\n2023&qsetId=18jwPH YrPvM=&qsetName=CDC 01 2022 DILR)\nAccur acy (AccSelectGr aph.jsp?sid=aaaN5tjtX0b7W gArBjowyMon Jan 09 00:02:18 IST\n2023&qsetId=18jwPH YrPvM=&qsetName=CDC 01 2022 DILR)\nQs A nalysis  (QsA nalysis.jsp?sid=aaaN5tjtX0b7W gArBjowyMon Jan 09 00:02:18 IST\n2023&qsetId=18jwPH YrPvM=&qsetName=CDC 01 2022 DILR)\nVideo A ttempt / Solution  (VideoA nalysis.jsp?sid=aaaN5tjtX0b7W gArBjowyMon Jan 09 00:02:18 IST\n2023&qsetId=18jwPH YrPvM=&qsetName=CDC 01 2022 DILR)\nSolutions  (Solution.jsp?sid=aaaN5tjtX0b7W gArBjowyMon Jan 09 00:02:18 IST\n2023&qsetId=18jwPH YrPvM=&qsetName=CDC 01 2022 DILR)\nBookmarks  (Bookmarks.jsp?sid=aaaN5tjtX0b7W gArBjowyMon Jan 09 00:02:18 IST\n2023&qsetId=18jwPH YrPvM=&qsetName=CDC 01 2022 DILR)\n\u00a0Section-1CDC 01 2022 DILR\n",
+        "images": [
+            {
+                "name": "X8.png",
+                "size": [
+                    223,
+                    34
+                ],
+                "base64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA..."
+            }
+        ]
+    },
+    {
+        "page": 2,
+        "text": "Sec 1\nDirections for questions 1 t o 4: Answer the questions on the basis of the information giv en below .\nWankhede Stadium is an o val shaped crick et gr ound in Mumbai. The \ufb01nal match of the One Da y International\n(ODI) Crick et W orld Cup was once pla yed between India and Sri Lanka at this stadium. Ther e wer e four stands -\nKapil, Ga vaskar , Tendulkar and Ganguly - t o the East, W est, Nor th and South of the gr ound r espectiv ely. People\nbought tick ets for these stands and watched the match at the stadium.\nSome other information is giv en below:\n(i) The seats in each stand wer e in r ows. Row 2 was behind r ow 1, r ow 3 was behind r ow 2 \u2026 and so on in each\nstand.\n(ii) The number of r ows in Kapil, Ga vaskar , Tendulkar and Ganguly stands wer e 20, 12, 15 and 10 r espectiv ely.\n(iii) Each r ow of a par ticular stand had an equal number of seats.\n(iv) The seat numbers of r ow 1 of a par ticular stand wer e 1, 2, 3, ..., n, wher e n was the t otal number of seats in\nrow 1, the seat numbers of r ow 2 wer e n + 1, n + 2, n + 3, ... , 2n, the seat numbers of r ow 3 wer e 2n + 1, 2n + 2,\n2n + 3, ..., 3n, and so on.\n(v) The occupancy of Kapil, Ga vaskar , Tendulkar and Ganguly stands wer e 55.55\u2026%, 60%, 57.14\u2026% and 53.84\u2026%\nrespectiv ely.\n(vi) Due t o Co vid-19 pandemic no two consecutiv e seats could be occupied in any r ow of all the stands.\n\u00a0\u00a0Q.1 [11831809]\nWhat was the t otal number of seats occupied in the Nor th stand?\nSolution:\nCorr ect A nswer : 60\nYour A nswer : 60\nFrom condition (v), the occupancy of Nor th (T endulkar) stand was 57.14\u2026% = 4/7 i.e., 4 seats out of 7 seats\nwere occupied. F rom condition (vi), no two consecutiv e seats could be occupied in any r ow. The number of\nseats in a r ow of Nor th stand was 7. So in r ow 1, seats 1, 3, 5 and 7 wer e occupied. F rom condition (ii), t otal\nnumber of r ows in Nor th stand was 15. Hence, the t otal number of occupied seats in Nor th stand was 4 \u00d7 15 =\n60.\uf00c\n Answer k ey/Solution \uf084\nBookmark FeedBack",
+        "images": [
+            {
+                "name": "X22.png",
+                "size": [
+                    423,
+                    139
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 3,
+        "text": "Directions for questions 1 t o 4: Answer the questions on the basis of the information giv en below .\nWankhede Stadium is an o val shaped crick et gr ound in Mumbai. The \ufb01nal match of the One Da y International\n(ODI) Crick et W orld Cup was once pla yed between India and Sri Lanka at this stadium. Ther e wer e four stands -\nKapil, Ga vaskar , Tendulkar and Ganguly - t o the East, W est, Nor th and South of the gr ound r espectiv ely. People\nbought tick ets for these stands and watched the match at the stadium.\nSome other information is giv en below:\n(i) The seats in each stand wer e in r ows. Row 2 was behind r ow 1, r ow 3 was behind r ow 2 \u2026 and so on in each\nstand.\n(ii) The number of r ows in Kapil, Ga vaskar , Tendulkar and Ganguly stands wer e 20, 12, 15 and 10 r espectiv ely.\n(iii) Each r ow of a par ticular stand had an equal number of seats.\n(iv) The seat numbers of r ow 1 of a par ticular stand wer e 1, 2, 3, ..., n, wher e n was the t otal number of seats in\nrow 1, the seat numbers of r ow 2 wer e n + 1, n + 2, n + 3, ... , 2n, the seat numbers of r ow 3 wer e 2n + 1, 2n + 2,\n2n + 3, ..., 3n, and so on.\n(v) The occupancy of Kapil, Ga vaskar , Tendulkar and Ganguly stands wer e 55.55\u2026%, 60%, 57.14\u2026% and 53.84\u2026%\nrespectiv ely.\n(vi) Due t o Co vid-19 pandemic no two consecutiv e seats could be occupied in any r ow of all the stands.\n\u00a0\u00a0Q.2 [11831809]\nIf the cost per tick et for Ganguly stand was Rs 2,500 , then what was the t otal r evenue (in Rs. lakh) fr om Ganguly\nstand?\n1 \u00a0  1.75\n2  1.5\n3  2.75\n4  2.25\n\uf00c",
+        "images": []
+    },
+    {
+        "page": 4,
+        "text": "Solution:\nCorr ect A nswer : 1\nYour A nswer : 1\nFrom condition (v), the occupancy of Ganguly stand was 53.84\u2026% = 7/13 i.e., 7 seats out of 13 seats wer e\noccupied. F rom condition (vi), no two consecutiv e seats could be occupied in any r ow. The number of seats in\neach r ow of this stand was 13. So in r ow 1, seats 1, 3, 5, 7, 9, 11 and 13 wer e occupied. F rom condition (ii),\ntotal number of r ows in Ganguly stand was 10. Hence, the r evenue fr om Ganguly stand was = 7 \u00d7 10 \u00d7 2500 =\nRs. 1,75,000.\nDirections for questions 1 t o 4: Answer the questions on the basis of the information giv en below .\nWankhede Stadium is an o val shaped crick et gr ound in Mumbai. The \ufb01nal match of the One Da y International\n(ODI) Crick et W orld Cup was once pla yed between India and Sri Lanka at this stadium. Ther e wer e four stands -\nKapil, Ga vaskar , Tendulkar and Ganguly - t o the East, W est, Nor th and South of the gr ound r espectiv ely. People\nbought tick ets for these stands and watched the match at the stadium.\nSome other information is giv en below:\n(i) The seats in each stand wer e in r ows. Row 2 was behind r ow 1, r ow 3 was behind r ow 2 \u2026 and so on in each\nstand.\n(ii) The number of r ows in Kapil, Ga vaskar , Tendulkar and Ganguly stands wer e 20, 12, 15 and 10 r espectiv ely.\n(iii) Each r ow of a par ticular stand had an equal number of seats.\n(iv) The seat numbers of r ow 1 of a par ticular stand wer e 1, 2, 3, ..., n, wher e n was the t otal number of seats in\nrow 1, the seat numbers of r ow 2 wer e n + 1, n + 2, n + 3, ... , 2n, the seat numbers of r ow 3 wer e 2n + 1, 2n + 2,\n2n + 3, ..., 3n, and so on.\n(v) The occupancy of Kapil, Ga vaskar , Tendulkar and Ganguly stands wer e 55.55\u2026%, 60%, 57.14\u2026% and 53.84\u2026%\nrespectiv ely.\n(vi) Due t o Co vid-19 pandemic no two consecutiv e seats could be occupied in any r ow of all the stands.\n\u00a0\u00a0Q.3 [11831809]\nWhich of the following seats cannot be occupied in the W est stand, if after e very 5 seats in each r ow ther e was\na commuting path? (The seats adjacent t o the commuting path ar e not consider ed as adjacent seats and hence\nboth can be occupied.)\n1 \u00a0  23\n2  38\n3  101 Answer k ey/Solution \uf084\nBookmark FeedBack",
+        "images": [
+            {
+                "name": "X31.png",
+                "size": [
+                    423,
+                    139
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 5,
+        "text": "4  74\nSolution:\nCorr ect A nswer : 4\nYour A nswer : 4\nDirections for questions 1 t o 4: Answer the questions on the basis of the information giv en below .\nWankhede Stadium is an o val shaped crick et gr ound in Mumbai. The \ufb01nal match of the One Da y International\n(ODI) Crick et W orld Cup was once pla yed between India and Sri Lanka at this stadium. Ther e wer e four stands -\nKapil, Ga vaskar , Tendulkar and Ganguly - t o the East, W est, Nor th and South of the gr ound r espectiv ely. People\nbought tick ets for these stands and watched the match at the stadium.\nSome other information is giv en below:\n(i) The seats in each stand wer e in r ows. Row 2 was behind r ow 1, r ow 3 was behind r ow 2 \u2026 and so on in each\nstand.\n(ii) The number of r ows in Kapil, Ga vaskar , Tendulkar and Ganguly stands wer e 20, 12, 15 and 10 r espectiv ely.\n(iii) Each r ow of a par ticular stand had an equal number of seats.\n(iv) The seat numbers of r ow 1 of a par ticular stand wer e 1, 2, 3, ..., n, wher e n was the t otal number of seats in\nrow 1, the seat numbers of r ow 2 wer e n + 1, n + 2, n + 3, ... , 2n, the seat numbers of r ow 3 wer e 2n + 1, 2n + 2,\n2n + 3, ..., 3n, and so on.\n(v) The occupancy of Kapil, Ga vaskar , Tendulkar and Ganguly stands wer e 55.55\u2026%, 60%, 57.14\u2026% and 53.84\u2026%\nrespectiv ely.\n(vi) Due t o Co vid-19 pandemic no two consecutiv e seats could be occupied in any r ow of all the stands.\uf00c\n Answer k ey/Solution \uf084\nBookmark FeedBack",
+        "images": [
+            {
+                "name": "X37.png",
+                "size": [
+                    652,
+                    366
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 6,
+        "text": "\u00a0\u00a0Q.4 [11831809]\nIf the Spor ts Minister of the Go vernment of India watched the match sitting in the middle of r ow 5 of the East\nStand, then in which of the following seats did the Spor ts Minister sit?\n1 \u00a0  39\n2  41\n3  40\n4  43\nSolution:\nCorr ect A nswer : 2\nYour A nswer : 2\n\uf00c\n Answer k ey/Solution \uf084\nBookmark FeedBack",
+        "images": [
+            {
+                "name": "X43.png",
+                "size": [
+                    652,
+                    366
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 7,
+        "text": "Directions for questions 5 t o 10:  Answer the questions on the basis of the information giv en below .\nSix emplo yees \u2013 A, B, C, D , E and F - completed their annual appr aisals for the y ear 2021-22. The appr aisal had\ntwo par ts - compulsor y and optional. The compulsor y par t consisted of self, peer and ment or appr aisals. After\nthe r atings wer e receiv ed in these thr ee compulsor y appr aisals, the emplo yees aspiring for pr omotions or\nchange of pr o\ufb01le had options t o be appr aised individually b y the HR head, HODs of other depar tments and\nChairman: also for each of these any emplo yee had a choice t o be appr aised or not t o be appr aised. In case of\nNon-Appr aisal, N A is mentioned in place of the r atings in the table of optional appr aisal r atings giv en below . For\neach of these appr aisals an emplo yee could get a r ating fr om 1 t o 5, based on their per formance during the\nyear. The r atings giv en ar e as follows:\nFurther, it is also known that:\n(i) A, B and E had the same t otal r atings after the compulsor y appr aisals wer e over. A had a lesser self r ating\nthan peer r ating, B had a lesser peer r ating than self r ating and E had a lesser ment or rating than self r ating.\n(ii) C and F ga ve equal self r atings and r eceiv ed equal peer r atings wher eas F got double the ment or rating of C.\n(iii) The t otal r atings r eceiv ed b y A, C, D and F wer e distinct prime numbers between 10 and 20 in no speci\ufb01c\norder wher eas the r emaining emplo yees r eceiv ed ratings of 25 and 28.\n(iv) None of the emplo yees got an Unsatisfact ory rating.\n(v) The existing salaries of all the emplo yees ar e whole numbers and the incr ements r eceiv ed b y the emplo yees\nafter the appr aisals wer e as follows:\nNo incr ement for r atings less than or equal t o 10. Incr ement of 5% for r atings between 11 and 15, 10% for\nratings between 16 and 20, 15% for r atings between 21 and 25; 20% for r atings between 26 and 30.\n\u00a0\u00a0Q.5 [11831809]\nWhich of the following is the sum of self-r atings of A, B and E?\n1 \u00a0  12\n2  13\n3  14\n4  15",
+        "images": [
+            {
+                "name": "X49.png",
+                "size": [
+                    389,
+                    266
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 8,
+        "text": "Solution:\nCorr ect A nswer : 3\nYour A nswer : 3\nThe sum of self-r atings of A, B and E is 4 + 5 + 5 = 14.\uf00c\n Answer k ey/Solution \uf084\nBookmark FeedBack",
+        "images": [
+            {
+                "name": "X52.png",
+                "size": [
+                    696,
+                    469
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 9,
+        "text": "Directions for questions 5 t o 10:  Answer the questions on the basis of the information giv en below .\nSix emplo yees \u2013 A, B, C, D , E and F - completed their annual appr aisals for the y ear 2021-22. The appr aisal had\ntwo par ts - compulsor y and optional. The compulsor y par t consisted of self, peer and ment or appr aisals. After\nthe r atings wer e receiv ed in these thr ee compulsor y appr aisals, the emplo yees aspiring for pr omotions or\nchange of pr o\ufb01le had options t o be appr aised individually b y the HR head, HODs of other depar tments and\nChairman: also for each of these any emplo yee had a choice t o be appr aised or not t o be appr aised. In case of\nNon-Appr aisal, N A is mentioned in place of the r atings in the table of optional appr aisal r atings giv en below . For\neach of these appr aisals an emplo yee could get a r ating fr om 1 t o 5, based on their per formance during the\nyear. The r atings giv en ar e as follows:\nFurther, it is also known that:\n(i) A, B and E had the same t otal r atings after the compulsor y appr aisals wer e over. A had a lesser self r ating\nthan peer r ating, B had a lesser peer r ating than self r ating and E had a lesser ment or rating than self r ating.\n(ii) C and F ga ve equal self r atings and r eceiv ed equal peer r atings wher eas F got double the ment or rating of C.\n(iii) The t otal r atings r eceiv ed b y A, C, D and F wer e distinct prime numbers between 10 and 20 in no speci\ufb01c\norder wher eas the r emaining emplo yees r eceiv ed ratings of 25 and 28.\n(iv) None of the emplo yees got an Unsatisfact ory rating.\n(v) The existing salaries of all the emplo yees ar e whole numbers and the incr ements r eceiv ed b y the emplo yees\nafter the appr aisals wer e as follows:\nNo incr ement for r atings less than or equal t o 10. Incr ement of 5% for r atings between 11 and 15, 10% for\nratings between 16 and 20, 15% for r atings between 21 and 25; 20% for r atings between 26 and 30.\n\u00a0\u00a0Q.6 [11831809]\nWhat was the sum of the r atings r eceiv ed b y D in compulsor y par t of the appr aisal?\n1 \u00a0  12\n2  13\n3  14\n4  Less than 12",
+        "images": [
+            {
+                "name": "X58.png",
+                "size": [
+                    389,
+                    266
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 10,
+        "text": "Solution:\nCorr ect A nswer : 2\nYour A nswer : 2\nTotal 13 r atings wer e receiv ed b y D in compulsor y par t of the appr aisal.\uf00c\n Answer k ey/Solution \uf084\nBookmark FeedBack",
+        "images": [
+            {
+                "name": "X61.png",
+                "size": [
+                    696,
+                    469
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 11,
+        "text": "Directions for questions 5 t o 10:  Answer the questions on the basis of the information giv en below .\nSix emplo yees \u2013 A, B, C, D , E and F - completed their annual appr aisals for the y ear 2021-22. The appr aisal had\ntwo par ts - compulsor y and optional. The compulsor y par t consisted of self, peer and ment or appr aisals. After\nthe r atings wer e receiv ed in these thr ee compulsor y appr aisals, the emplo yees aspiring for pr omotions or\nchange of pr o\ufb01le had options t o be appr aised individually b y the HR head, HODs of other depar tments and\nChairman: also for each of these any emplo yee had a choice t o be appr aised or not t o be appr aised. In case of\nNon-Appr aisal, N A is mentioned in place of the r atings in the table of optional appr aisal r atings giv en below . For\neach of these appr aisals an emplo yee could get a r ating fr om 1 t o 5, based on their per formance during the\nyear. The r atings giv en ar e as follows:\nFurther, it is also known that:\n(i) A, B and E had the same t otal r atings after the compulsor y appr aisals wer e over. A had a lesser self r ating\nthan peer r ating, B had a lesser peer r ating than self r ating and E had a lesser ment or rating than self r ating.\n(ii) C and F ga ve equal self r atings and r eceiv ed equal peer r atings wher eas F got double the ment or rating of C.\n(iii) The t otal r atings r eceiv ed b y A, C, D and F wer e distinct prime numbers between 10 and 20 in no speci\ufb01c\norder wher eas the r emaining emplo yees r eceiv ed ratings of 25 and 28.\n(iv) None of the emplo yees got an Unsatisfact ory rating.\n(v) The existing salaries of all the emplo yees ar e whole numbers and the incr ements r eceiv ed b y the emplo yees\nafter the appr aisals wer e as follows:\nNo incr ement for r atings less than or equal t o 10. Incr ement of 5% for r atings between 11 and 15, 10% for\nratings between 16 and 20, 15% for r atings between 21 and 25; 20% for r atings between 26 and 30.\n\u00a0\u00a0Q.7 [11831809]\nWhat was the ment or rating for the emplo yee with the lowest t otal r ating?\n1 \u00a0  4\n2  5\n3  3\n4  2",
+        "images": [
+            {
+                "name": "X67.png",
+                "size": [
+                    389,
+                    266
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 12,
+        "text": "Solution:\nCorr ect A nswer : 4\nYour A nswer : 4\nThe lowest t otal r ating was for C and it was 11. His ment or rating was 2.\uf00c\n Answer k ey/Solution \uf084\nBookmark FeedBack",
+        "images": [
+            {
+                "name": "X70.png",
+                "size": [
+                    696,
+                    469
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 13,
+        "text": "Directions for questions 5 t o 10:  Answer the questions on the basis of the information giv en below .\nSix emplo yees \u2013 A, B, C, D , E and F - completed their annual appr aisals for the y ear 2021-22. The appr aisal had\ntwo par ts - compulsor y and optional. The compulsor y par t consisted of self, peer and ment or appr aisals. After\nthe r atings wer e receiv ed in these thr ee compulsor y appr aisals, the emplo yees aspiring for pr omotions or\nchange of pr o\ufb01le had options t o be appr aised individually b y the HR head, HODs of other depar tments and\nChairman: also for each of these any emplo yee had a choice t o be appr aised or not t o be appr aised. In case of\nNon-Appr aisal, N A is mentioned in place of the r atings in the table of optional appr aisal r atings giv en below . For\neach of these appr aisals an emplo yee could get a r ating fr om 1 t o 5, based on their per formance during the\nyear. The r atings giv en ar e as follows:\nFurther, it is also known that:\n(i) A, B and E had the same t otal r atings after the compulsor y appr aisals wer e over. A had a lesser self r ating\nthan peer r ating, B had a lesser peer r ating than self r ating and E had a lesser ment or rating than self r ating.\n(ii) C and F ga ve equal self r atings and r eceiv ed equal peer r atings wher eas F got double the ment or rating of C.\n(iii) The t otal r atings r eceiv ed b y A, C, D and F wer e distinct prime numbers between 10 and 20 in no speci\ufb01c\norder wher eas the r emaining emplo yees r eceiv ed ratings of 25 and 28.\n(iv) None of the emplo yees got an Unsatisfact ory rating.\n(v) The existing salaries of all the emplo yees ar e whole numbers and the incr ements r eceiv ed b y the emplo yees\nafter the appr aisals wer e as follows:\nNo incr ement for r atings less than or equal t o 10. Incr ement of 5% for r atings between 11 and 15, 10% for\nratings between 16 and 20, 15% for r atings between 21 and 25; 20% for r atings between 26 and 30.\n\u00a0\u00a0Q.8 [11831809]\nIf D had the maximum r ating only in his self appr aisal, then which of the following statements is de\ufb01nitely true\nfor D?\nI. His r atings in the r emaining appr aisals wer e equal.\nII. The r ating in one of his appr aisals was 3.\nIII. The r atings in 2 out of his 4 appr aisals wer e equal.\n1 \u00a0  Only I\n2  Only III",
+        "images": [
+            {
+                "name": "X76.png",
+                "size": [
+                    389,
+                    266
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 14,
+        "text": "3  Both II and III\n4  Both I and II\nSolution:\nCorr ect A nswer : 1\nYour A nswer : 1\nThe r atings of the compulsor y appr aisal of D could be (5, 4, 4) or (5, 5 3). Accor ding t o the question the\nmaximum r ating was only for self appr aisal, so (5, 5, 3) is ruled out. Hence, the r atings in the 4 appr aisals (3\ncompulsor y and 1 optional) for A wer e (5, 4, 4, 4). Hence, the r atings of the r emaining appr aisals wer e equal,\nso only I is true.\uf00c\n Answer k ey/Solution \uf084\nBookmark FeedBack",
+        "images": [
+            {
+                "name": "X79.png",
+                "size": [
+                    696,
+                    469
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 15,
+        "text": "Directions for questions 5 t o 10:  Answer the questions on the basis of the information giv en below .\nSix emplo yees \u2013 A, B, C, D , E and F - completed their annual appr aisals for the y ear 2021-22. The appr aisal had\ntwo par ts - compulsor y and optional. The compulsor y par t consisted of self, peer and ment or appr aisals. After\nthe r atings wer e receiv ed in these thr ee compulsor y appr aisals, the emplo yees aspiring for pr omotions or\nchange of pr o\ufb01le had options t o be appr aised individually b y the HR head, HODs of other depar tments and\nChairman: also for each of these any emplo yee had a choice t o be appr aised or not t o be appr aised. In case of\nNon-Appr aisal, N A is mentioned in place of the r atings in the table of optional appr aisal r atings giv en below . For\neach of these appr aisals an emplo yee could get a r ating fr om 1 t o 5, based on their per formance during the\nyear. The r atings giv en ar e as follows:\nFurther, it is also known that:\n(i) A, B and E had the same t otal r atings after the compulsor y appr aisals wer e over. A had a lesser self r ating\nthan peer r ating, B had a lesser peer r ating than self r ating and E had a lesser ment or rating than self r ating.\n(ii) C and F ga ve equal self r atings and r eceiv ed equal peer r atings wher eas F got double the ment or rating of C.\n(iii) The t otal r atings r eceiv ed b y A, C, D and F wer e distinct prime numbers between 10 and 20 in no speci\ufb01c\norder wher eas the r emaining emplo yees r eceiv ed ratings of 25 and 28.\n(iv) None of the emplo yees got an Unsatisfact ory rating.\n(v) The existing salaries of all the emplo yees ar e whole numbers and the incr ements r eceiv ed b y the emplo yees\nafter the appr aisals wer e as follows:\nNo incr ement for r atings less than or equal t o 10. Incr ement of 5% for r atings between 11 and 15, 10% for\nratings between 16 and 20, 15% for r atings between 21 and 25; 20% for r atings between 26 and 30.\n\u00a0\u00a0Q.9 [11831809]\nWhich of the following emplo yees can get an incr eased salar y of Rs.1.5 lakh in the new \ufb01nancial y ear?\n1 \u00a0  B\n2  C\n3  E\n4  A",
+        "images": [
+            {
+                "name": "X85.png",
+                "size": [
+                    389,
+                    266
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 16,
+        "text": "Solution:\nCorr ect A nswer : 3\nFrom condition (v), it is giv en that the incr ements ar e 5%, 10%, 15% and 20% and their existing salaries ar e in\nwhole numbers. The only possible per centage incr ement for a r evised salar y of Rs.1.5 lakh is 20%.\nIn this case the existing salar y can be = 1.5/1.2 = 1.25 lakh = Rs.1,25,000 (whole number). In all other cases\nthe existing salar y calculated will not be whole numbers.\nThe only person who can get a 20% incr ement is E with a t otal r ating of 28.\nHence, the corr ect answer is (3). Answer k ey/Solution \uf084\nBookmark FeedBack",
+        "images": [
+            {
+                "name": "X88.png",
+                "size": [
+                    696,
+                    469
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 17,
+        "text": "Directions for questions 5 t o 10:  Answer the questions on the basis of the information giv en below .\nSix emplo yees \u2013 A, B, C, D , E and F - completed their annual appr aisals for the y ear 2021-22. The appr aisal had\ntwo par ts - compulsor y and optional. The compulsor y par t consisted of self, peer and ment or appr aisals. After\nthe r atings wer e receiv ed in these thr ee compulsor y appr aisals, the emplo yees aspiring for pr omotions or\nchange of pr o\ufb01le had options t o be appr aised individually b y the HR head, HODs of other depar tments and\nChairman: also for each of these any emplo yee had a choice t o be appr aised or not t o be appr aised. In case of\nNon-Appr aisal, N A is mentioned in place of the r atings in the table of optional appr aisal r atings giv en below . For\neach of these appr aisals an emplo yee could get a r ating fr om 1 t o 5, based on their per formance during the\nyear. The r atings giv en ar e as follows:\nFurther, it is also known that:\n(i) A, B and E had the same t otal r atings after the compulsor y appr aisals wer e over. A had a lesser self r ating\nthan peer r ating, B had a lesser peer r ating than self r ating and E had a lesser ment or rating than self r ating.\n(ii) C and F ga ve equal self r atings and r eceiv ed equal peer r atings wher eas F got double the ment or rating of C.\n(iii) The t otal r atings r eceiv ed b y A, C, D and F wer e distinct prime numbers between 10 and 20 in no speci\ufb01c\norder wher eas the r emaining emplo yees r eceiv ed ratings of 25 and 28.\n(iv) None of the emplo yees got an Unsatisfact ory rating.\n(v) The existing salaries of all the emplo yees ar e whole numbers and the incr ements r eceiv ed b y the emplo yees\nafter the appr aisals wer e as follows:\nNo incr ement for r atings less than or equal t o 10. Incr ement of 5% for r atings between 11 and 15, 10% for\nratings between 16 and 20, 15% for r atings between 21 and 25; 20% for r atings between 26 and 30.\n\u00a0\u00a0Q.10 [11831809]\nIf the existing salaries of A and F ar e equal t o Rs.75,000, then what is the diff erence (in Rs.) between their\nincreased salaries for the new \ufb01nancial y ear?",
+        "images": [
+            {
+                "name": "X94.png",
+                "size": [
+                    389,
+                    266
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 18,
+        "text": "Solution:\nCorr ect A nswer : 3750\nFrom condition (v), A got a t otal r ating of 19, so he gets an incr ement of 10% wher eas F got a r ating of 13, so\nhe gets an incr ement of 5%.\nHence, r equir ed diff erence in their salaries = 75000 \u00d7 (0.1 \u2013 0.05) = Rs.3,750. Answer k ey/Solution \uf084\nBookmark FeedBack",
+        "images": [
+            {
+                "name": "X97.png",
+                "size": [
+                    696,
+                    469
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 19,
+        "text": "Directions for questions 11 t o 14:  Answer the questions on the basis of the information giv en below .\nAamir is tr avelling t o four countries \u2013 P , Q, R and S which ha ve four diff erent curr encies \u2013 A, B, C and D in any\norder. He visits a curr ency ex change outlet and uses the local curr ency Rupees (Rs.) t o sell and buy the\ninternational curr encies. The bar gr aph below giv es the ex change r ate of curr encies for diff erent countries\nAamir is visiting pr ovided b y the curr ency ex change outlet. F or Aamir , the buying price of a unit of any curr ency\nis cer tain per centage mor e than the base price and selling price is cer tain per centage less than the base price\nof that curr ency . These per centages ma y diff er from countr y to countr y.\nFor example, Aamir can buy 1 unit of curr ency A with Rs. 220 and sell 1 unit of curr ency and get back Rs. 190.\nThe following facts ar e known about the ex change made b y the Aamir for his pr e and post trip:\n(i) The units of curr encies A, B, C and D bought b y Aamir ar e in the r atio 3 : 2 : 5 : 4 and the units of curr encies\nsold b y Aamir post trip ar e in the r atio 2 : 1 : 2 : 4. Aamir doesn \u2019t keep any curr ency post trip.\n(ii) The diff erence between the mone y spent b y Aamir on buying curr ency B and selling curr ency D was Rs.\n1,02,400.\n(iii) If Aamir would ha ve receiv ed the base price as selling price for curr ency C, then he would ha ve receiv ed Rs.\n1,200 mor e.\n(iv) The curr encies for countries P and Q wer e bought 10% abo ve the corr esponding base ex change r ates, and\ntheir selling ex change r ates ar e 5% below their corr esponding base ex change r ates. F or countr y R, the curr ency\nwas bought 12% abo ve the corr esponding base ex change r ates which is less than the selling ex change r ate of\nthe curr ency of countr y S. All base prices of e very curr ency wer e integers.\n\u00a0\u00a0Q.11 [11831809]\nThe curr ency for countr y R wer e sold b y Aamir at the ex change r ate ________% below their corr esponding base\nexchange r ates.\n1 \u00a0  3\n2  4\n3  5\n4  8",
+        "images": [
+            {
+                "name": "X103.png",
+                "size": [
+                    410,
+                    235
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 20,
+        "text": "Solution:\nCorr ect A nswer : 2\n Answer k ey/Solution \uf084\nBookmark FeedBack",
+        "images": [
+            {
+                "name": "X106.png",
+                "size": [
+                    698,
+                    789
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 21,
+        "text": "Directions for questions 11 t o 14:  Answer the questions on the basis of the information giv en below .\nAamir is tr avelling t o four countries \u2013 P , Q, R and S which ha ve four diff erent curr encies \u2013 A, B, C and D in any\norder. He visits a curr ency ex change outlet and uses the local curr ency Rupees (Rs.) t o sell and buy the\ninternational curr encies. The bar gr aph below giv es the ex change r ate of curr encies for diff erent countries\nAamir is visiting pr ovided b y the curr ency ex change outlet. F or Aamir , the buying price of a unit of any curr ency\nis cer tain per centage mor e than the base price and selling price is cer tain per centage less than the base price\nof that curr ency . These per centages ma y diff er from countr y to countr y.\nFor example, Aamir can buy 1 unit of curr ency A with Rs. 220 and sell 1 unit of curr ency and get back Rs. 190.\nThe following facts ar e known about the ex change made b y the Aamir for his pr e and post trip:\n(i) The units of curr encies A, B, C and D bought b y Aamir ar e in the r atio 3 : 2 : 5 : 4 and the units of curr encies\nsold b y Aamir post trip ar e in the r atio 2 : 1 : 2 : 4. Aamir doesn \u2019t keep any curr ency post trip.\n(ii) The diff erence between the mone y spent b y Aamir on buying curr ency B and selling curr ency D was Rs.\n1,02,400.\n(iii) If Aamir would ha ve receiv ed the base price as selling price for curr ency C, then he would ha ve receiv ed Rs.\n1,200 mor e.\n(iv) The curr encies for countries P and Q wer e bought 10% abo ve the corr esponding base ex change r ates, and\ntheir selling ex change r ates ar e 5% below their corr esponding base ex change r ates. F or countr y R, the curr ency\nwas bought 12% abo ve the corr esponding base ex change r ates which is less than the selling ex change r ate of\nthe curr ency of countr y S. All base prices of e very curr ency wer e integers.\n\u00a0\u00a0Q.12 [11831809]\nHow many units of curr ency S did Aamir spent on the trip?",
+        "images": [
+            {
+                "name": "X112.png",
+                "size": [
+                    410,
+                    235
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 22,
+        "text": "Solution:\nCorr ect A nswer : 800\nUnits of curr ency of countr y S Aamir spent on the trip = 1600 \u2013 800 = 800. Answer k ey/Solution \uf084\nBookmark FeedBack",
+        "images": [
+            {
+                "name": "X115.png",
+                "size": [
+                    698,
+                    732
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 23,
+        "text": "Directions for questions 11 t o 14:  Answer the questions on the basis of the information giv en below .\nAamir is tr avelling t o four countries \u2013 P , Q, R and S which ha ve four diff erent curr encies \u2013 A, B, C and D in any\norder. He visits a curr ency ex change outlet and uses the local curr ency Rupees (Rs.) t o sell and buy the\ninternational curr encies. The bar gr aph below giv es the ex change r ate of curr encies for diff erent countries\nAamir is visiting pr ovided b y the curr ency ex change outlet. F or Aamir , the buying price of a unit of any curr ency\nis cer tain per centage mor e than the base price and selling price is cer tain per centage less than the base price\nof that curr ency . These per centages ma y diff er from countr y to countr y.\nFor example, Aamir can buy 1 unit of curr ency A with Rs. 220 and sell 1 unit of curr ency and get back Rs. 190.\nThe following facts ar e known about the ex change made b y the Aamir for his pr e and post trip:\n(i) The units of curr encies A, B, C and D bought b y Aamir ar e in the r atio 3 : 2 : 5 : 4 and the units of curr encies\nsold b y Aamir post trip ar e in the r atio 2 : 1 : 2 : 4. Aamir doesn \u2019t keep any curr ency post trip.\n(ii) The diff erence between the mone y spent b y Aamir on buying curr ency B and selling curr ency D was Rs.\n1,02,400.\n(iii) If Aamir would ha ve receiv ed the base price as selling price for curr ency C, then he would ha ve receiv ed Rs.\n1,200 mor e.\n(iv) The curr encies for countries P and Q wer e bought 10% abo ve the corr esponding base ex change r ates, and\ntheir selling ex change r ates ar e 5% below their corr esponding base ex change r ates. F or countr y R, the curr ency\nwas bought 12% abo ve the corr esponding base ex change r ates which is less than the selling ex change r ate of\nthe curr ency of countr y S. All base prices of e very curr ency wer e integers.\n\u00a0\u00a0Q.13 [11831809]\nMaximum how much mone y (in Rs.) Aamir could ha ve receiv ed mor e if he sold the curr ency of countr y P at the\nbase ex change r ate?\n1 \u00a0  2400\n2  3600\n3  4000\n4  4200",
+        "images": [
+            {
+                "name": "X121.png",
+                "size": [
+                    410,
+                    235
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 24,
+        "text": "Solution:\nCorr ect A nswer : 3\nMaximum 400 \u00d7 10 = Rs. 4,000 A mir could ha ve receiv ed mor e if he sold the curr ency of countr y P at the base\nexchange r ate. Answer k ey/Solution \uf084\nBookmark FeedBack",
+        "images": [
+            {
+                "name": "X124.png",
+                "size": [
+                    698,
+                    732
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 25,
+        "text": "Directions for questions 11 t o 14:  Answer the questions on the basis of the information giv en below .\nAamir is tr avelling t o four countries \u2013 P , Q, R and S which ha ve four diff erent curr encies \u2013 A, B, C and D in any\norder. He visits a curr ency ex change outlet and uses the local curr ency Rupees (Rs.) t o sell and buy the\ninternational curr encies. The bar gr aph below giv es the ex change r ate of curr encies for diff erent countries\nAamir is visiting pr ovided b y the curr ency ex change outlet. F or Aamir , the buying price of a unit of any curr ency\nis cer tain per centage mor e than the base price and selling price is cer tain per centage less than the base price\nof that curr ency . These per centages ma y diff er from countr y to countr y.\nFor example, Aamir can buy 1 unit of curr ency A with Rs. 220 and sell 1 unit of curr ency and get back Rs. 190.\nThe following facts ar e known about the ex change made b y the Aamir for his pr e and post trip:\n(i) The units of curr encies A, B, C and D bought b y Aamir ar e in the r atio 3 : 2 : 5 : 4 and the units of curr encies\nsold b y Aamir post trip ar e in the r atio 2 : 1 : 2 : 4. Aamir doesn \u2019t keep any curr ency post trip.\n(ii) The diff erence between the mone y spent b y Aamir on buying curr ency B and selling curr ency D was Rs.\n1,02,400.\n(iii) If Aamir would ha ve receiv ed the base price as selling price for curr ency C, then he would ha ve receiv ed Rs.\n1,200 mor e.\n(iv) The curr encies for countries P and Q wer e bought 10% abo ve the corr esponding base ex change r ates, and\ntheir selling ex change r ates ar e 5% below their corr esponding base ex change r ates. F or countr y R, the curr ency\nwas bought 12% abo ve the corr esponding base ex change r ates which is less than the selling ex change r ate of\nthe curr ency of countr y S. All base prices of e very curr ency wer e integers.\n\u00a0\u00a0Q.14 [11831809]\nIf Aamir bought curr ency D at p% abo ve the corr esponding base ex change r ate and sold curr ency D at (p \u2013 5)%\nbelow the corr esponding base ex change r ate, then what is the v alue of p?\n1 \u00a0  10\n2  15\n3  25\n4  20",
+        "images": [
+            {
+                "name": "X130.png",
+                "size": [
+                    410,
+                    235
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 26,
+        "text": "Solution:\nCorr ect A nswer : 4\nFrom the giv en options, the v alue of p is 20. Answer k ey/Solution \uf084\nBookmark FeedBack",
+        "images": [
+            {
+                "name": "X133.png",
+                "size": [
+                    698,
+                    732
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 27,
+        "text": "Directions for questions 15 t o 20:  Answer the questions on the basis of the information giv en below .\nA cer tain number of cy clists par ticipated in the \u2018Road Cy cle Race \u2019 held at Gr eater Noida. They all star ted the r ace\nat the same time and each of them \ufb01nished in diff erent positions. Out of these, eight cy clists wer e from eight\ndifferent cities - A, B, C, D , E, F , G and H. These eight cy clists wer e assigned unique numbers fr om 1 t o 8, not\nnecessarily in the same or der. These eight cy clists \ufb01nished the r ace in unique positions fr om 1 t o 12.\nSome other information about the abo ve mentioned eight cy clists is giv en below .\n(i) Cy clist 8 was fr om city G.\n(ii) Only thr ee cy clists \ufb01nished the r ace in e ven number ed positions.\n(iii) Among the eight par ticipants, Cy clist 4 \ufb01nished \ufb01rst, which was an e ven number ed position.\n(iv) Cy clist 5\u2019 s position number was twice that of Cy clist 3.\n(v) The cy clist fr om city C \ufb01nished the r ace last among the eight cy clists.\n(vi) Cy clist 7 \ufb01nished the r ace in an e ven number ed position.\n(vii) Cy clist 1 fr om city D \ufb01nished the r ace befor e Cy clist 3.\n(viii) Cy clist 6 \ufb01nished the r ace befor e Cy clist 8 but after Cy clist 2.\n\u00a0\u00a0Q.15 [11831809]\nThe number assigned t o the cy clist fr om city C was __________.\n\uf00c",
+        "images": []
+    },
+    {
+        "page": 28,
+        "text": "Solution:\nCorr ect A nswer : 7\nYour A nswer : 7\nThe number assigned t o the cy clist fr om city C was 7. Answer k ey/Solution \uf084\nBookmark FeedBack",
+        "images": [
+            {
+                "name": "X141.png",
+                "size": [
+                    703,
+                    713
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 29,
+        "text": "Directions for questions 15 t o 20:  Answer the questions on the basis of the information giv en below .\nA cer tain number of cy clists par ticipated in the \u2018Road Cy cle Race \u2019 held at Gr eater Noida. They all star ted the r ace\nat the same time and each of them \ufb01nished in diff erent positions. Out of these, eight cy clists wer e from eight\ndifferent cities - A, B, C, D , E, F , G and H. These eight cy clists wer e assigned unique numbers fr om 1 t o 8, not\nnecessarily in the same or der. These eight cy clists \ufb01nished the r ace in unique positions fr om 1 t o 12.\nSome other information about the abo ve mentioned eight cy clists is giv en below .\n(i) Cy clist 8 was fr om city G.\n(ii) Only thr ee cy clists \ufb01nished the r ace in e ven number ed positions.\n(iii) Among the eight par ticipants, Cy clist 4 \ufb01nished \ufb01rst, which was an e ven number ed position.\n(iv) Cy clist 5\u2019 s position number was twice that of Cy clist 3.\n(v) The cy clist fr om city C \ufb01nished the r ace last among the eight cy clists.\n(vi) Cy clist 7 \ufb01nished the r ace in an e ven number ed position.\n(vii) Cy clist 1 fr om city D \ufb01nished the r ace befor e Cy clist 3.\n(viii) Cy clist 6 \ufb01nished the r ace befor e Cy clist 8 but after Cy clist 2.\n\u00a0\u00a0Q.16 [11831809]\nWhat was the 3r d last position number among the eight cy clists?\n\uf00d",
+        "images": []
+    },
+    {
+        "page": 30,
+        "text": "Solution:\nCorr ect A nswer : 10\nYour A nswer : 5\nThe 3r d last position number among the eight cy clists was 10. Answer k ey/Solution \uf084\nBookmark FeedBack",
+        "images": [
+            {
+                "name": "X149.png",
+                "size": [
+                    703,
+                    713
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 31,
+        "text": "Directions for questions 15 t o 20:  Answer the questions on the basis of the information giv en below .\nA cer tain number of cy clists par ticipated in the \u2018Road Cy cle Race \u2019 held at Gr eater Noida. They all star ted the r ace\nat the same time and each of them \ufb01nished in diff erent positions. Out of these, eight cy clists wer e from eight\ndifferent cities - A, B, C, D , E, F , G and H. These eight cy clists wer e assigned unique numbers fr om 1 t o 8, not\nnecessarily in the same or der. These eight cy clists \ufb01nished the r ace in unique positions fr om 1 t o 12.\nSome other information about the abo ve mentioned eight cy clists is giv en below .\n(i) Cy clist 8 was fr om city G.\n(ii) Only thr ee cy clists \ufb01nished the r ace in e ven number ed positions.\n(iii) Among the eight par ticipants, Cy clist 4 \ufb01nished \ufb01rst, which was an e ven number ed position.\n(iv) Cy clist 5\u2019 s position number was twice that of Cy clist 3.\n(v) The cy clist fr om city C \ufb01nished the r ace last among the eight cy clists.\n(vi) Cy clist 7 \ufb01nished the r ace in an e ven number ed position.\n(vii) Cy clist 1 fr om city D \ufb01nished the r ace befor e Cy clist 3.\n(viii) Cy clist 6 \ufb01nished the r ace befor e Cy clist 8 but after Cy clist 2.\n\u00a0\u00a0Q.17 [11831809]\nHow many cy clists had both their assigned number and the position number either e ven or odd?\n1 \u00a0  2\n2  3\n3  4\n4  5\n\uf00c",
+        "images": []
+    },
+    {
+        "page": 32,
+        "text": "Solution:\nCorr ect A nswer : 2\nYour A nswer : 2\nTher e wer e thr ee cy clists i.e., cy clist 1, cy clist 3 and cy clist 4. Answer k ey/Solution \uf084\nBookmark FeedBack",
+        "images": [
+            {
+                "name": "X157.png",
+                "size": [
+                    703,
+                    713
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 33,
+        "text": "Directions for questions 15 t o 20:  Answer the questions on the basis of the information giv en below .\nA cer tain number of cy clists par ticipated in the \u2018Road Cy cle Race \u2019 held at Gr eater Noida. They all star ted the r ace\nat the same time and each of them \ufb01nished in diff erent positions. Out of these, eight cy clists wer e from eight\ndifferent cities - A, B, C, D , E, F , G and H. These eight cy clists wer e assigned unique numbers fr om 1 t o 8, not\nnecessarily in the same or der. These eight cy clists \ufb01nished the r ace in unique positions fr om 1 t o 12.\nSome other information about the abo ve mentioned eight cy clists is giv en below .\n(i) Cy clist 8 was fr om city G.\n(ii) Only thr ee cy clists \ufb01nished the r ace in e ven number ed positions.\n(iii) Among the eight par ticipants, Cy clist 4 \ufb01nished \ufb01rst, which was an e ven number ed position.\n(iv) Cy clist 5\u2019 s position number was twice that of Cy clist 3.\n(v) The cy clist fr om city C \ufb01nished the r ace last among the eight cy clists.\n(vi) Cy clist 7 \ufb01nished the r ace in an e ven number ed position.\n(vii) Cy clist 1 fr om city D \ufb01nished the r ace befor e Cy clist 3.\n(viii) Cy clist 6 \ufb01nished the r ace befor e Cy clist 8 but after Cy clist 2.\n\u00a0\u00a0Q.18 [11831809]\nFrom which city was the cy clist who \ufb01nished his r ace in 2nd last position?\n1 \u00a0  C\n2  D\n3  G\n4  H\n\uf00c",
+        "images": []
+    },
+    {
+        "page": 34,
+        "text": "Solution:\nCorr ect A nswer : 3\nYour A nswer : 3\nThe cy clist who \ufb01nished his r ace in 2nd last position was fr om city G. Answer k ey/Solution \uf084\nBookmark FeedBack",
+        "images": [
+            {
+                "name": "X165.png",
+                "size": [
+                    703,
+                    713
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 35,
+        "text": "Directions for questions 15 t o 20:  Answer the questions on the basis of the information giv en below .\nA cer tain number of cy clists par ticipated in the \u2018Road Cy cle Race \u2019 held at Gr eater Noida. They all star ted the r ace\nat the same time and each of them \ufb01nished in diff erent positions. Out of these, eight cy clists wer e from eight\ndifferent cities - A, B, C, D , E, F , G and H. These eight cy clists wer e assigned unique numbers fr om 1 t o 8, not\nnecessarily in the same or der. These eight cy clists \ufb01nished the r ace in unique positions fr om 1 t o 12.\nSome other information about the abo ve mentioned eight cy clists is giv en below .\n(i) Cy clist 8 was fr om city G.\n(ii) Only thr ee cy clists \ufb01nished the r ace in e ven number ed positions.\n(iii) Among the eight par ticipants, Cy clist 4 \ufb01nished \ufb01rst, which was an e ven number ed position.\n(iv) Cy clist 5\u2019 s position number was twice that of Cy clist 3.\n(v) The cy clist fr om city C \ufb01nished the r ace last among the eight cy clists.\n(vi) Cy clist 7 \ufb01nished the r ace in an e ven number ed position.\n(vii) Cy clist 1 fr om city D \ufb01nished the r ace befor e Cy clist 3.\n(viii) Cy clist 6 \ufb01nished the r ace befor e Cy clist 8 but after Cy clist 2.\n\u00a0\u00a0Q.19 [11831809]\nIf the cy clists fr om cities E and H had consecutiv e numbers and the cy clist fr om city B \ufb01nished the r ace befor e\nthe cy clist fr om city A but after the cy clist fr om city F , then at which of the following position numbers the cy clist\nfrom city F could not \ufb01nish the r ace?\n1 \u00a0  2\n2  5\n3  7\n4  9\n\uf00c",
+        "images": []
+    },
+    {
+        "page": 36,
+        "text": "Solution:\nCorr ect A nswer : 4\nYour A nswer : 4\nFrom the giv en condition and table, F can \ufb01nish the r ace in positions 2, 5 and 7. Hence, F could not \ufb01nish the\nrace in positions 9 or 10. Answer k ey/Solution \uf084\nBookmark FeedBack",
+        "images": [
+            {
+                "name": "X173.png",
+                "size": [
+                    703,
+                    713
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 37,
+        "text": "Directions for questions 15 t o 20:  Answer the questions on the basis of the information giv en below .\nA cer tain number of cy clists par ticipated in the \u2018Road Cy cle Race \u2019 held at Gr eater Noida. They all star ted the r ace\nat the same time and each of them \ufb01nished in diff erent positions. Out of these, eight cy clists wer e from eight\ndifferent cities - A, B, C, D , E, F , G and H. These eight cy clists wer e assigned unique numbers fr om 1 t o 8, not\nnecessarily in the same or der. These eight cy clists \ufb01nished the r ace in unique positions fr om 1 t o 12.\nSome other information about the abo ve mentioned eight cy clists is giv en below .\n(i) Cy clist 8 was fr om city G.\n(ii) Only thr ee cy clists \ufb01nished the r ace in e ven number ed positions.\n(iii) Among the eight par ticipants, Cy clist 4 \ufb01nished \ufb01rst, which was an e ven number ed position.\n(iv) Cy clist 5\u2019 s position number was twice that of Cy clist 3.\n(v) The cy clist fr om city C \ufb01nished the r ace last among the eight cy clists.\n(vi) Cy clist 7 \ufb01nished the r ace in an e ven number ed position.\n(vii) Cy clist 1 fr om city D \ufb01nished the r ace befor e Cy clist 3.\n(viii) Cy clist 6 \ufb01nished the r ace befor e Cy clist 8 but after Cy clist 2.\n\u00a0\u00a0Q.20 [11831809]\nIf the cy clists fr om cities A and B did not \ufb01nish the r ace at odd number ed positions and H \ufb01nished the r ace\nbefor e both E and F , then which of the following statements is de\ufb01nitely TRUE?\n1 \u00a0  The cy clist fr om city F \ufb01nished the r ace in position 7.\n2  The cy clist fr om city H \ufb01nished the r ace in position 5.\n3  The cy clist 4 was fr om city B.\n4  The cy clist 6 was fr om city E.\n\uf00c",
+        "images": []
+    },
+    {
+        "page": 38,
+        "text": "Solution:\nCorr ect A nswer : 2\nYour A nswer : 2\n Answer k ey/Solution \uf084",
+        "images": [
+            {
+                "name": "X181.png",
+                "size": [
+                    703,
+                    978
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 39,
+        "text": "",
+        "images": [
+            {
+                "name": "X185.png",
+                "size": [
+                    703,
+                    978
+                ],
+                "base64": "////////////////////////////////////////////////////////////////////////////////////////////////////..."
+            }
+        ]
+    },
+    {
+        "page": 40,
+        "text": "Bookmark FeedBack",
+        "images": []
+    }
+]
