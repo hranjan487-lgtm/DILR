@@ -419,6 +419,283 @@ export const sets: DilrSet[] = [
       },
     ],
   },
+  {
+    id: 'seating-03',
+    title: 'Circular Seating - Six People',
+    topicId: 'seating-arrangement',
+    difficulty: 'Easy',
+    timeLimitMinutes: 8,
+    source: 'Original Set',
+    directions:
+      'Six people - P, Q, R, S, T and U - sit around a circular table, facing the centre. Answer the questions based on the following information:\n' +
+      '1. Q sits immediately clockwise of P.\n' +
+      '2. R sits immediately clockwise of Q.\n' +
+      '3. S sits exactly opposite P.\n' +
+      '4. T sits immediately clockwise of S.\n' +
+      '5. U is the only person left, and sits immediately clockwise of T.',
+    questions: [
+      {
+        id: 'q1',
+        text: 'Who sits immediately anticlockwise of R?',
+        options: ['P', 'Q', 'S', 'T'],
+        correctOptionIndex: 1,
+        explanation:
+          'The clockwise order is P, Q, R, S, T, U. The person immediately anticlockwise of R is the one immediately before R in this order, which is Q.',
+      },
+      {
+        id: 'q2',
+        text: 'Who sits exactly opposite Q?',
+        options: ['R', 'S', 'T', 'U'],
+        correctOptionIndex: 2,
+        explanation:
+          'With 6 people seated evenly, the person opposite is 3 seats away. Opposite pairs are P-S, Q-T and R-U, so T sits opposite Q.',
+      },
+      {
+        id: 'q3',
+        text: 'How many people sit between P and T, counting clockwise from P to T?',
+        options: ['2', '3', '4', '5'],
+        correctOptionIndex: 1,
+        explanation: 'Going clockwise from P: Q, R, S lie between P and T - that is 3 people.',
+      },
+      {
+        id: 'q4',
+        text: 'Which of the following pairs sit exactly opposite each other?',
+        options: ['P and Q', 'R and U', 'S and T', 'Q and U'],
+        correctOptionIndex: 1,
+        explanation: 'The opposite pairs in this arrangement are P-S, Q-T and R-U, so R and U sit opposite each other.',
+      },
+    ],
+  },
+  {
+    id: 'games-03',
+    title: 'Knockout Cup - Four Players',
+    topicId: 'games-tournaments',
+    difficulty: 'Medium',
+    timeLimitMinutes: 9,
+    source: 'Original Set',
+    directions:
+      'Four players - A, B, C and D - competed in a knockout cup. In the semi-finals, A played B, and C played D. The winners of the two semi-finals played each other in the Final, while the two semi-final losers played each other in a 3rd-place match.\n' +
+      'Points are awarded as follows: a semi-final win is worth 3 points and a semi-final loss is worth 1 point. On top of that, the Final winner earns 5 more points and the Final loser earns 2 more points; the 3rd-place match winner earns 2 more points and the 3rd-place match loser earns 0 more points.\n' +
+      'It is known that: A beat B in the semi-final, D beat C in the semi-final, A beat D in the Final, and B beat C in the 3rd-place match.',
+    questions: [
+      {
+        id: 'q1',
+        text: 'Who won the tournament?',
+        options: ['A', 'B', 'C', 'D'],
+        correctOptionIndex: 0,
+        explanation: 'A won the semi-final and then won the Final, so A is the champion.',
+      },
+      {
+        id: 'q2',
+        text: 'How many total points did D score?',
+        options: ['3', '5', '6', '8'],
+        correctOptionIndex: 1,
+        explanation: 'D won the semi-final (3 points) but lost the Final (+2 points) = 5 points total.',
+      },
+      {
+        id: 'q3',
+        text: 'Who finished with the fewest points overall?',
+        options: ['A', 'B', 'C', 'D'],
+        correctOptionIndex: 2,
+        explanation: 'C lost the semi-final (1 point) and lost the 3rd-place match (+0 points) = 1 point total, the lowest of all four.',
+      },
+      {
+        id: 'q4',
+        text: 'Which two players played in the 3rd-place match?',
+        options: ['A and D', 'B and C', 'A and C', 'B and D'],
+        correctOptionIndex: 1,
+        explanation: 'The 3rd-place match is between the two semi-final losers, which were B and C.',
+      },
+    ],
+  },
+  {
+    id: 'venn-03',
+    title: 'Tea and Coffee Drinkers',
+    topicId: 'venn-diagrams',
+    difficulty: 'Easy',
+    timeLimitMinutes: 6,
+    source: 'Original Set',
+    directions:
+      'In a survey of 250 people, 60% like Tea, 44% like Coffee, and 20% like both Tea and Coffee. Answer the questions based on the above information.',
+    questions: [
+      {
+        id: 'q1',
+        text: 'How many people like only Tea?',
+        options: ['80', '90', '100', '110'],
+        correctOptionIndex: 2,
+        explanation: 'Tea drinkers = 60% of 250 = 150. Both = 20% of 250 = 50. Only Tea = 150 - 50 = 100.',
+      },
+      {
+        id: 'q2',
+        text: 'How many people like only Coffee?',
+        options: ['40', '50', '60', '70'],
+        correctOptionIndex: 2,
+        explanation: 'Coffee drinkers = 44% of 250 = 110. Both = 50. Only Coffee = 110 - 50 = 60.',
+      },
+      {
+        id: 'q3',
+        text: 'How many people like at least one of Tea or Coffee?',
+        options: ['190', '200', '210', '220'],
+        correctOptionIndex: 2,
+        explanation: 'Using |T ∪ C| = |T| + |C| - |T ∩ C| = 150 + 110 - 50 = 210.',
+      },
+      {
+        id: 'q4',
+        text: 'How many people like neither Tea nor Coffee?',
+        options: ['30', '40', '50', '60'],
+        correctOptionIndex: 1,
+        explanation: 'Neither = Total - |T ∪ C| = 250 - 210 = 40.',
+      },
+    ],
+  },
+  {
+    id: 'ds-02',
+    title: 'Data Sufficiency - Practice Set 2',
+    topicId: 'data-sufficiency',
+    difficulty: 'Medium',
+    timeLimitMinutes: 8,
+    source: 'Original Set',
+    directions:
+      'Each question below is followed by two statements, I and II. Decide whether the information in each statement is sufficient to answer the question.',
+    questions: [
+      {
+        id: 'q1',
+        text: 'What is the value of y?\nI. y² = 49\nII. y is negative.',
+        options: [
+          'Statement I alone is sufficient',
+          'Statement II alone is sufficient',
+          'Both together are sufficient, neither alone',
+          'Both together are not sufficient',
+        ],
+        correctOptionIndex: 2,
+        explanation:
+          'I alone gives y = 7 or -7. II alone only says y is negative, with no fixed value. Together, y must be negative and satisfy y² = 49, so y = -7 uniquely.',
+      },
+      {
+        id: 'q2',
+        text: 'Is integer x an even number?\nI. x/2 is an integer.\nII. x² is an even number.',
+        options: [
+          'Statement I alone is sufficient',
+          'Statement II alone is sufficient',
+          'Both together are sufficient, neither alone',
+          'Each statement alone is sufficient',
+        ],
+        correctOptionIndex: 3,
+        explanation:
+          'I alone: if x/2 is an integer, x must be even. II alone: the square of an odd number is always odd, so if x² is even, x itself must be even. Each statement alone is sufficient.',
+      },
+      {
+        id: 'q3',
+        text: 'What is the two-digit number N?\nI. The sum of the digits of N is 9.\nII. N is divisible by 9.',
+        options: [
+          'Statement I alone is sufficient',
+          'Statement II alone is sufficient',
+          'Both together are sufficient, neither alone',
+          'Both together are not sufficient',
+        ],
+        correctOptionIndex: 3,
+        explanation:
+          'Several two-digit numbers (18, 27, 36, ... 90) have digit sum 9, and the same set of numbers (plus 99) are divisible by 9. Even combined, N is not uniquely determined.',
+      },
+      {
+        id: 'q4',
+        text: 'Is p > q?\nI. p + 3 = q + 5\nII. p and q are positive integers.',
+        options: [
+          'Statement I alone is sufficient',
+          'Statement II alone is sufficient',
+          'Both together are sufficient, neither alone',
+          'Both together are not sufficient',
+        ],
+        correctOptionIndex: 0,
+        explanation:
+          'I alone simplifies to p = q + 2, so p > q always. II alone gives no relationship between p and q, so it is not sufficient.',
+      },
+    ],
+  },
+  {
+    id: 'tables-02',
+    title: 'Product Revenue by Quarter',
+    topicId: 'tables-caselets',
+    difficulty: 'Medium',
+    timeLimitMinutes: 8,
+    source: 'Original Set',
+    directions:
+      'The table below shows the revenue (in Rs. lakhs) of four products in Q1 and Q2 of a year.\n' +
+      'P1: Q1 80, Q2 100\n' +
+      'P2: Q1 150, Q2 130\n' +
+      'P3: Q1 60, Q2 90\n' +
+      'P4: Q1 110, Q2 110',
+    questions: [
+      {
+        id: 'q1',
+        text: 'Which product had the highest combined (Q1 + Q2) revenue?',
+        options: ['P1', 'P2', 'P3', 'P4'],
+        correctOptionIndex: 1,
+        explanation: 'Totals: P1=180, P2=280, P3=150, P4=220. P2 is highest at 280.',
+      },
+      {
+        id: 'q2',
+        text: 'What is the percentage increase in revenue of P3 from Q1 to Q2?',
+        options: ['40%', '45%', '50%', '55%'],
+        correctOptionIndex: 2,
+        explanation: '(90 - 60) / 60 × 100 = 50%.',
+      },
+      {
+        id: 'q3',
+        text: "Which product's revenue remained unchanged between Q1 and Q2?",
+        options: ['P1', 'P2', 'P3', 'P4'],
+        correctOptionIndex: 3,
+        explanation: 'P4 recorded 110 in both Q1 and Q2, an unchanged value.',
+      },
+      {
+        id: 'q4',
+        text: 'What was the average Q1 revenue across all four products?',
+        options: ['90', '95', '100', '105'],
+        correctOptionIndex: 2,
+        explanation: '(80 + 150 + 60 + 110) / 4 = 400 / 4 = 100.',
+      },
+    ],
+  },
+  {
+    id: 'routes-02',
+    title: 'One-Way Road Network',
+    topicId: 'routes-networks',
+    difficulty: 'Hard',
+    timeLimitMinutes: 9,
+    source: 'Original Set',
+    directions:
+      'Four towns E, F, G and H are connected by one-way roads only (distances in km): E→F: 5, F→G: 7, G→H: 4, H→E: 6, E→G: 9, F→H: 10. There are no roads other than these six, and none of them can be travelled in the reverse direction.',
+    questions: [
+      {
+        id: 'q1',
+        text: 'What is the shortest distance from E to H?',
+        options: ['13 km', '15 km', '16 km', '19 km'],
+        correctOptionIndex: 0,
+        explanation: 'E→G→H = 9+4 = 13 km, shorter than E→F→H (5+10=15) and E→F→G→H (5+7+4=16).',
+      },
+      {
+        id: 'q2',
+        text: 'What is the shortest distance from F to E?',
+        options: ['15 km', '16 km', '17 km', '21 km'],
+        correctOptionIndex: 1,
+        explanation: 'F→H→E = 10+6 = 16 km, shorter than F→G→H→E (7+4+6=17 km).',
+      },
+      {
+        id: 'q3',
+        text: 'What is the shortest distance from E to F?',
+        options: ['4 km', '5 km', '6 km', '9 km'],
+        correctOptionIndex: 1,
+        explanation: 'The direct E→F road is 5 km, which is necessarily the minimum possible distance.',
+      },
+      {
+        id: 'q4',
+        text: 'Which of the following direct roads does NOT exist in this network?',
+        options: ['E to G', 'G to E', 'F to H', 'H to E'],
+        correctOptionIndex: 1,
+        explanation: 'The only roads are E→F, F→G, G→H, H→E, E→G and F→H - there is no direct road from G to E.',
+      },
+    ],
+  },
 ]
 
 export function getSetsByTopic(topicId: string): DilrSet[] {

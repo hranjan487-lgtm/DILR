@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Topics from './pages/Topics'
@@ -9,7 +9,7 @@ import VideoLibrary from './pages/VideoLibrary'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-1 w-full max-w-5xl mx-auto px-4 py-6">
@@ -26,7 +26,7 @@ function App() {
           Built for CAT DILR practice · progress is saved locally in your browser
         </footer>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
