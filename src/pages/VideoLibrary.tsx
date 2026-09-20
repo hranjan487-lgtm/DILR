@@ -1,14 +1,30 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { sets } from '../data/sets'
 import { topics } from '../data/topics'
-import { classRecordingFolders } from '../data/classRecordings'
+import { classRecordings } from '../data/classRecordings'
 import DifficultyBadge from '../components/DifficultyBadge'
+
+const INITIAL_VISIBLE = 8
+
+function formatDate(iso: string): string {
+  const [year, month, day] = iso.split('-').map(Number)
+  return new Date(year, month - 1, day).toLocaleDateString('en-IN', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+  })
+}
 
 export default function VideoLibrary() {
   const withVideo = sets.filter((s) => s.videoSolutionUrl)
   const withoutVideo = sets.filter((s) => !s.videoSolutionUrl)
+  const [showAllRecordings, setShowAllRecordings] = useState(false)
 
   const topicName = (topicId: string) => topics.find((t) => t.id === topicId)?.name ?? topicId
+  const visibleRecordings = showAllRecordings
+    ? classRecordings
+    : classRecordings.slice(0, INITIAL_VISIBLE)
 
   return (
     <div className="space-y-8">
@@ -26,20 +42,30 @@ export default function VideoLibrary() {
           Full session recordings, organised by date rather than by set. Browse these if you're
           looking for the class that covered a particular topic.
         </p>
-        {classRecordingFolders.map((folder) => (
-          <a
-            key={folder.url}
-            href={folder.url}
-            target="_blank"
-            rel="noreferrer"
-            className="flex items-center justify-between border border-slate-200 bg-white rounded-lg p-4 hover:shadow-sm transition-shadow"
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          {visibleRecordings.map((recording) => (
+            <a
+              key={recording.url}
+              href={recording.url}
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-2 border border-slate-200 bg-white rounded-lg p-3 hover:shadow-sm transition-shadow"
+            >
+              <span className="text-lg">🎬</span>
+              <span className="text-sm font-medium text-slate-700">{formatDate(recording.date)}</span>
+            </a>
+          ))}
+        </div>
+        {classRecordings.length > INITIAL_VISIBLE && (
+          <button
+            onClick={() => setShowAllRecordings((v) => !v)}
+            className="text-sm font-medium text-indigo-600 hover:text-indigo-700"
           >
-            <div>
-              <div className="font-semibold text-slate-800">📁 {folder.label}</div>
-              <div className="text-xs text-slate-500 mt-1">{folder.description}</div>
-            </div>
-          </a>
-        ))}
+            {showAllRecordings
+              ? 'Show fewer recordings'
+              : `Show all ${classRecordings.length} recordings`}
+          </button>
+        )}
       </section>
 
       {withVideo.length > 0 && (
