@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { sets } from '../data/sets'
 import { topics } from '../data/topics'
+import { classRecordingFolders } from '../data/classRecordings'
 import DifficultyBadge from '../components/DifficultyBadge'
 
 export default function VideoLibrary() {
@@ -18,6 +19,28 @@ export default function VideoLibrary() {
           set in <code>src/data/sets.ts</code> to make it appear here.
         </p>
       </div>
+
+      <section className="space-y-3">
+        <h2 className="text-sm font-semibold text-slate-600">Class Recordings</h2>
+        <p className="text-xs text-slate-500 -mt-2">
+          Full session recordings, organised by date rather than by set. Browse these if you're
+          looking for the class that covered a particular topic.
+        </p>
+        {classRecordingFolders.map((folder) => (
+          <a
+            key={folder.url}
+            href={folder.url}
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center justify-between border border-slate-200 bg-white rounded-lg p-4 hover:shadow-sm transition-shadow"
+          >
+            <div>
+              <div className="font-semibold text-slate-800">📁 {folder.label}</div>
+              <div className="text-xs text-slate-500 mt-1">{folder.description}</div>
+            </div>
+          </a>
+        ))}
+      </section>
 
       {withVideo.length > 0 && (
         <section className="space-y-3">
