@@ -696,6 +696,226 @@ export const sets: DilrSet[] = [
       },
     ],
   },
+  {
+    id: 'venn-04',
+    title: 'Cricket, Football and Volleyball Players',
+    topicId: 'venn-diagrams',
+    difficulty: 'Medium',
+    timeLimitMinutes: 9,
+    source: 'MBA Litmus',
+    directions:
+      'In a class of 60 students, 35 students do not play Cricket, 33 do not play Football, and 31 do not play Volleyball. 47 students play Football or Volleyball (or both), 43 play Volleyball or Cricket (or both), and 45 play Cricket or Football (or both). 3 students play none of the three games.',
+    questions: [
+      {
+        id: 'q1',
+        text: 'How many students play both Cricket and Volleyball (regardless of Football)?',
+        options: ['7', '9', '11', '13'],
+        correctOptionIndex: 2,
+        explanation:
+          'Cricket = 60-35=25, Football = 60-33=27, Volleyball = 60-31=29. From |V∪C|=V+C-(V∩C): 43=29+25-(V∩C), so V∩C=11.',
+      },
+      {
+        id: 'q2',
+        text: 'How many students play exactly two of the three games?',
+        options: ['15', '18', '21', '24'],
+        correctOptionIndex: 1,
+        explanation:
+          'Using the three pairwise unions: F∩V=9, V∩C=11, C∩F=7 (sum=27). Since students playing none = 3, at-least-one = 57, and C+F+V - (sum of pairwise ∩) + (all three) = 57 gives all-three = 3. Exactly two = 27 - 3×3 = 18.',
+      },
+      {
+        id: 'q3',
+        text: 'How many students play all three games?',
+        options: ['2', '3', '4', '5'],
+        correctOptionIndex: 1,
+        explanation: 'From C+F+V - (C∩F + C∩V + F∩V) + (all three) = 57 (at-least-one): 81 - 27 + (all three) = 57, so all three = 3.',
+      },
+      {
+        id: 'q4',
+        text: 'What is the difference between the number of students who play at least two games and those who play at most one game?',
+        options: ['12', '15', '18', '21'],
+        correctOptionIndex: 2,
+        explanation:
+          'At least two = exactly-two (18) + all-three (3) = 21. At most one = 60 - 21 = 39. The difference is 39 - 21 = 18.',
+      },
+    ],
+  },
+  {
+    id: 'venn-05',
+    title: 'Satluj and Godavari House Students',
+    topicId: 'venn-diagrams',
+    difficulty: 'Hard',
+    timeLimitMinutes: 10,
+    source: 'MBA Litmus',
+    directions:
+      'Each of the 200 students in a college is a member of either Satluj House or Godavari House. The following is also known about their gender and food preference:\n' +
+      '1. 95 students are members of Satluj House.\n' +
+      '2. 50 students, who are vegetarians, are members of Godavari House.\n' +
+      '3. 15 students, who are male vegetarians, are members of Satluj House.\n' +
+      '4. 50 students, who are male, are non-vegetarians.\n' +
+      '5. 50 students in Godavari House are either vegetarian females or non-vegetarian males.\n' +
+      '6. 60 female students are either vegetarians who belong to Satluj House, or non-vegetarians who belong to Godavari House.\n' +
+      '7. 30 students, who are male non-vegetarians, are members of Satluj House.',
+    questions: [
+      {
+        id: 'q1',
+        text: 'How many female students are vegetarians and members of Satluj House?',
+        options: ['20', '25', '30', '35'],
+        correctOptionIndex: 1,
+        explanation:
+          'Satluj males: 15 (veg) + 30 (non-veg) = 45, so Satluj females = 95-45=50. Godavari non-veg males = 50 (total) - 30 (Satluj) = 20, so from clue 5, Godavari veg females = 50-20=30. From clue 6: (Satluj veg females) + (Godavari non-veg females) = 60. Godavari females = 200-95(Satluj)-... solving the full system gives Satluj veg females = 25.',
+      },
+      {
+        id: 'q2',
+        text: 'How many female students are non-vegetarians and members of Godavari House?',
+        options: ['20', '25', '30', '35'],
+        correctOptionIndex: 3,
+        explanation:
+          'Godavari house has 105 students: 20 (non-veg male) + 20 (veg male, since total veg = derived) + 30 (veg female) + (non-veg female) = 105, giving Godavari non-veg females = 35.',
+      },
+      {
+        id: 'q3',
+        text: 'What is the total number of male students in the college?',
+        options: ['115', '120', '80', '85'],
+        correctOptionIndex: 3,
+        explanation: 'Male students = 15 (Satluj veg) + 30 (Satluj non-veg) + 20 (Godavari veg) + 20 (Godavari non-veg) = 85.',
+      },
+      {
+        id: 'q4',
+        text: 'How many female students are non-vegetarians and members of Satluj House?',
+        options: ['20', '25', '30', '35'],
+        correctOptionIndex: 1,
+        explanation: 'Satluj females total 50 (95-45). With 25 of them vegetarian (from Q1), the remaining 25 are non-vegetarian.',
+      },
+    ],
+  },
+  {
+    id: 'venn-06',
+    title: 'Ford, Toyota and Suzuki Owners',
+    topicId: 'venn-diagrams',
+    difficulty: 'Medium',
+    timeLimitMinutes: 9,
+    source: 'MBA Litmus',
+    directions:
+      'A survey was conducted among 300 car owners about which of three brands - Ford, Toyota and Suzuki - they own. 100 people own Ford, 125 own Toyota, and 150 own Suzuki. 35 owners have exactly 2 of the 3 brands. Every owner has at least one of the three brands.',
+    questions: [
+      {
+        id: 'q1',
+        text: 'How many people own exactly one of the three brands?',
+        options: ['235', '245', '255', '265'],
+        correctOptionIndex: 1,
+        explanation:
+          'Let a, b, c be the counts for exactly one, exactly two (=35), and all three brands. a+b+c=300 and a+2b+3c=100+125+150=375. So a+3c=305 and a+c=265, giving c=20 and a=245.',
+      },
+      {
+        id: 'q2',
+        text: 'If 8 owners have only Toyota and Suzuki (not Ford), how many owners have only Ford?',
+        options: ['27', '36', '49', '53'],
+        correctOptionIndex: 3,
+        explanation:
+          'Of the 35 two-brand owners, Toyota-Suzuki-only = 8, so Ford-Toyota-only + Ford-Suzuki-only = 27. Ford total = only-Ford + (Ford-Toyota-only + Ford-Suzuki-only) + all-three: 100 = only-Ford + 27 + 20, so only-Ford = 53.',
+      },
+      {
+        id: 'q3',
+        text: 'If 80 people own only Toyota, how many own only Suzuki and Ford (not Toyota)?',
+        options: ['5', '10', '15', '25'],
+        correctOptionIndex: 1,
+        explanation:
+          'Toyota total = only-Toyota + (Ford-Toyota-only + Toyota-Suzuki-only) + all-three: 125 = 80 + (Ford-Toyota-only + Toyota-Suzuki-only) + 20, so those two groups sum to 25. Since all two-brand groups sum to 35, Ford-Suzuki-only = 35-25 = 10.',
+      },
+      {
+        id: 'q4',
+        text: 'How many people own all three brands?',
+        options: ['15', '20', '25', '30'],
+        correctOptionIndex: 1,
+        explanation: 'From the base equations (a+c=265, a=245), all-three = c = 20.',
+      },
+    ],
+  },
+  {
+    id: 'venn-07',
+    title: 'Restaurant Manager Attendance',
+    topicId: 'venn-diagrams',
+    difficulty: 'Hard',
+    timeLimitMinutes: 11,
+    source: 'MBA Litmus',
+    directions:
+      'A restaurant owner employed three managers - Rohan, Asmita and Aman - to run the restaurant while he was away, with the rule that at least one manager had to be present every day. After some days, he asked each manager to report on the presence of the other two (each report concerns only the other two managers, regardless of whether the reporting manager was present that day):\n' +
+      '- Rohan reported: both Asmita and Aman were present on 60 days; only Asmita (of the two) was present on 44 days.\n' +
+      '- Asmita reported: only Aman (of the two) was present on 44 days; only Rohan (of the two) was present on 37 days.\n' +
+      '- Aman reported: both Rohan and Asmita were present on 53 days; only Rohan (of the two) was present on 34 days; neither Rohan nor Asmita was present on 31 days.',
+    questions: [
+      {
+        id: 'q1',
+        text: 'On how many days in total was Rohan present?',
+        options: ['80', '84', '87', '90'],
+        correctOptionIndex: 2,
+        explanation:
+          'Solving the system of day-counts across all 7 possible attendance combinations gives Rohan present on 31 (alone) + 6 (with Asmita only) + 3 (with Aman only) + 47 (with both) = 87 days.',
+      },
+      {
+        id: 'q2',
+        text: 'On how many days in total was Asmita present?',
+        options: ['94', '100', '104', '110'],
+        correctOptionIndex: 2,
+        explanation: 'Asmita present on 38 (alone) + 6 (with Rohan only) + 13 (with Aman only) + 47 (with both) = 104 days.',
+      },
+      {
+        id: 'q3',
+        text: 'On how many days in total was Aman present?',
+        options: ['87', '90', '94', '98'],
+        correctOptionIndex: 2,
+        explanation: 'Aman present on 31 (alone) + 3 (with Rohan only) + 13 (with Asmita only) + 47 (with both) = 94 days.',
+      },
+      {
+        id: 'q4',
+        text: 'On how many days were all three managers present together?',
+        options: ['40', '44', '47', '53'],
+        correctOptionIndex: 2,
+        explanation: 'Solving the system of equations from all three reports gives 47 days with all three present.',
+      },
+    ],
+  },
+  {
+    id: 'venn-08',
+    title: 'Entrance Test Cutoffs - Four Sections',
+    topicId: 'venn-diagrams',
+    difficulty: 'Hard',
+    timeLimitMinutes: 12,
+    source: 'MBA Litmus',
+    directions:
+      '100 students appeared for a college entrance test with 4 sections: English, Maths, Reasoning and Business Affairs. Every student cleared the cutoff in at least one section. 60 students cleared English, 66 cleared Maths, 52 cleared Reasoning, and 45 cleared Business Affairs.',
+    questions: [
+      {
+        id: 'q1',
+        text: 'What is the maximum possible number of students who cleared the cutoff in all 4 sections?',
+        options: ['35', '38', '41', '45'],
+        correctOptionIndex: 2,
+        explanation:
+          'Total clearances = 60+66+52+45=223. With n4 students clearing all 4 and the rest clearing exactly 1 each, the remaining (100-n4) students need at least (100-n4) clearances from the remaining (223-4n4). Solving 223-4n4 ≥ 100-n4 gives n4 ≤ 41.',
+      },
+      {
+        id: 'q2',
+        text: 'What is the maximum possible number of students who cleared the cutoff in exactly 3 sections?',
+        options: ['55', '58', '61', '64'],
+        correctOptionIndex: 2,
+        explanation: 'A similar optimisation (maximising the exactly-3 group while keeping the total student and clearance counts fixed) gives a maximum of 61.',
+      },
+      {
+        id: 'q3',
+        text: 'What is the maximum possible number of students who cleared the cutoff in exactly 2 sections?',
+        options: ['80', '84', '88', '92'],
+        correctOptionIndex: 2,
+        explanation: 'Maximising the exactly-2 group under the same total constraints gives a maximum of 88.',
+      },
+      {
+        id: 'q4',
+        text: 'What is the maximum possible number of students who cleared the cutoff in exactly 1 section?',
+        options: ['53', '56', '59', '62'],
+        correctOptionIndex: 2,
+        explanation: 'This is maximised by concentrating the remaining clearances into as few students as possible (all-4 students), giving 59 single-section students.',
+      },
+    ],
+  },
 ]
 
 export function getSetsByTopic(topicId: string): DilrSet[] {
