@@ -282,6 +282,143 @@ export const sets: DilrSet[] = [
       },
     ],
   },
+  {
+    id: 'games-02',
+    title: 'Circular Card Pass - Four Players',
+    topicId: 'games-tournaments',
+    difficulty: 'Medium',
+    timeLimitMinutes: 10,
+    source: 'Original Set',
+    directions:
+      'Four players W, X, Y and Z sit around a circular table in that clockwise order (so the player immediately clockwise of W is X, of X is Y, of Y is Z, and of Z is W). W and Y sit directly opposite each other, and so do X and Z.\n' +
+      'A pile of 12 cards - 4 Blue, 4 Red and 4 Yellow - is drawn one at a time, starting with W. Whenever a card is drawn, the drawer keeps it, and then:\n' +
+      '- if the card is Blue, the next draw is made by the player sitting directly opposite the drawer;\n' +
+      '- if the card is Red, the next draw is made by the player sitting immediately clockwise of the drawer;\n' +
+      '- if the card is Yellow, the next draw is made by the player sitting immediately anticlockwise of the drawer.\n' +
+      'The 12 cards were drawn in this exact order: Blue, Red, Yellow, Blue, Red, Yellow, Blue, Red, Yellow, Blue, Red, Yellow.',
+    questions: [
+      {
+        id: 'q1',
+        text: 'How many cards in total did W end up with?',
+        options: ['2', '3', '4', '5'],
+        correctOptionIndex: 2,
+        explanation:
+          'Tracing the draws: W(Blue)→Y(Red)→Z(Yellow)→Y(Blue)→W(Red)→X(Yellow)→W(Blue)→Y(Red)→Z(Yellow)→Y(Blue)→W(Red)→X(Yellow). W draws on turns 1, 5, 7 and 11 - four cards in total.',
+      },
+      {
+        id: 'q2',
+        text: 'Which player drew the last (12th) card?',
+        options: ['W', 'X', 'Y', 'Z'],
+        correctOptionIndex: 1,
+        explanation: 'Following the same trace, the 12th draw is made by X (after Y drew the Blue 10th card and passed Red to W, who passed Yellow to X).',
+      },
+      {
+        id: 'q3',
+        text: 'How many Yellow cards did Z end up with?',
+        options: ['0', '1', '2', '3'],
+        correctOptionIndex: 2,
+        explanation: 'Z draws on turns 3 and 9, both of which are Yellow cards - so Z ends up with 2 Yellow cards.',
+      },
+      {
+        id: 'q4',
+        text: 'Which pair of players ended up holding only Blue and Red cards, with no Yellow cards at all?',
+        options: ['W and Y', 'X and Z', 'W and Z', 'X and Y'],
+        correctOptionIndex: 0,
+        explanation:
+          'W draws on turns 1, 5, 7, 11 (Blue, Red, Blue, Red) and Y draws on turns 2, 4, 8, 10 (Red, Blue, Red, Blue) - neither ever draws a Yellow card, unlike X and Z who only draw Yellow cards.',
+      },
+    ],
+  },
+  {
+    id: 'venn-02',
+    title: 'Badminton, Tennis and Squash Players',
+    topicId: 'venn-diagrams',
+    difficulty: 'Medium',
+    timeLimitMinutes: 9,
+    source: 'Original Set',
+    directions:
+      'In a college of 400 students, every student plays at least one of three sports: Badminton, Tennis and Squash. 220 students play Badminton, 180 play Tennis, and 150 play Squash. Each question below adds an independent additional piece of information; treat each question separately.',
+    questions: [
+      {
+        id: 'q1',
+        text: 'If exactly 50 students play all three sports, how many students play exactly two sports?',
+        options: ['30', '40', '50', '60'],
+        correctOptionIndex: 2,
+        explanation:
+          'Let a, b, c be the number of students playing exactly one, exactly two, and all three sports. a+b+c=400 and a+2b+3c=220+180+150=550, so b+2c=150. With c=50, b=150-100=50.',
+      },
+      {
+        id: 'q2',
+        text: 'If exactly 90 students play exactly two sports, how many play all three sports?',
+        options: ['20', '25', '30', '35'],
+        correctOptionIndex: 2,
+        explanation: 'From b+2c=150, with b=90: 2c=60, so c=30.',
+      },
+      {
+        id: 'q3',
+        text: 'If no student plays all three sports, how many students play exactly two sports?',
+        options: ['130', '140', '150', '160'],
+        correctOptionIndex: 2,
+        explanation: 'From b+2c=150, with c=0: b=150.',
+      },
+      {
+        id: 'q4',
+        text: 'Continuing from the previous question (no student plays all three sports), how many students play exactly one sport?',
+        options: ['220', '240', '250', '260'],
+        correctOptionIndex: 2,
+        explanation: 'a+b+c=400, with b=150 and c=0: a=400-150-0=250.',
+      },
+    ],
+  },
+  {
+    id: 'seating-02',
+    title: 'City Visit Selection',
+    topicId: 'seating-arrangement',
+    difficulty: 'Hard',
+    timeLimitMinutes: 10,
+    source: 'Original Set',
+    directions:
+      'A trader is planning which cities to visit among six cities - J, K, L, M, N and P. The following conditions apply:\n' +
+      '1. If he visits J, he must also visit K.\n' +
+      '2. He cannot visit both L and M.\n' +
+      '3. If he visits N, he cannot visit P (and vice versa).\n' +
+      '4. He must visit at least one of L or N.\n' +
+      '5. If he visits K, he cannot visit N.',
+    questions: [
+      {
+        id: 'q1',
+        text: 'What is the maximum number of cities the trader can visit?',
+        options: ['3', '4', '5', '6'],
+        correctOptionIndex: 1,
+        explanation:
+          'Visiting {J, K, L, P} satisfies every condition and has 4 cities. Checking every way of dropping just one city from all six shows each violates at least one condition, so 5 is not achievable - the maximum is 4.',
+      },
+      {
+        id: 'q2',
+        text: 'Which of the following pairs of cities can never be visited together?',
+        options: ['J and P', 'K and N', 'L and P', 'J and L'],
+        correctOptionIndex: 1,
+        explanation:
+          'Condition 5 directly forbids visiting K and N together. The other three pairs each appear together in the valid selection {J, K, L, P}.',
+      },
+      {
+        id: 'q3',
+        text: 'If the trader decides to visit N, what is the maximum number of cities he can visit?',
+        options: ['1', '2', '3', '4'],
+        correctOptionIndex: 1,
+        explanation:
+          'Visiting N forces K out (condition 5), which forces J out (condition 1), and forces P out (condition 3). Between L and M only one can be chosen (condition 2), so the maximum is N plus one of {L, M} = 2 cities.',
+      },
+      {
+        id: 'q4',
+        text: 'If the trader visits both L and P, which other city(ies) must he definitely NOT visit?',
+        options: ['M only', 'N only', 'M and N', 'K and J'],
+        correctOptionIndex: 2,
+        explanation:
+          'Visiting L forces M out (condition 2). Visiting P forces N out (condition 3). K and J remain optional - they can be included or excluded without breaking any condition.',
+      },
+    ],
+  },
 ]
 
 export function getSetsByTopic(topicId: string): DilrSet[] {
